@@ -26,7 +26,7 @@
         <legend>Job Reference Number</legend>
         <div>
             <label for="jobref">Job Reference Number:</label>
-            <input type="text" name= "Student ID" id="jobref" maxlength="5" size="8" pattern="\d{5}" title="Please enter between 7-10 numbers" required="required">
+            <input type="text" name= "Student ID" id="jobref" maxlength="5" size="8" pattern="\d{5}" title="Please enter between 5 numbers" required="required">
         </div>
     </fieldset>
 
@@ -88,7 +88,7 @@
 <br>
         <div>
             <label for="postcode">Postcode:</label>
-            <input type="text" name="Postcode" id="postcode" maxlength="4" size="5" pattern="/d{5}" required="required">
+            <input type="text" name="Postcode" id="postcode" maxlength="4" size="5" pattern="^\d{4}$" required="required">
         </div>
     </fieldset>
 
@@ -131,10 +131,10 @@
             <label for="skill">Description of Skill:</label> <br>
             <textarea id="skill" name="skill" rows="4" cols="40">Write description of your relevant skill here...</textarea>
         </div>
-        
-        <input type= "submit" value="Book">
-	    <input type= "reset" value="Reset Form">
     </fieldset>
+        <input type= "submit" value="Apply">
+	    <input type= "reset" value="Reset Form">
+    
 </form>
 </body>
 </html>
