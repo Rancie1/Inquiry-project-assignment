@@ -4,9 +4,10 @@
 header {display: flex;
        gap: 20px;
        background-color: black;
+       padding-bottom: 5px;
       }
 
-#title {margin-top: 30px;
+#title {margin-top: 40px;
       margin-left:5%;
       margin-bottom: 2%;
       color:white}
@@ -15,20 +16,21 @@ body {font-family: "DM Serif Text", serif;
       font-weight: 400;
       font-style: normal;
       color: #050505; 
-      background: linear-gradient(to bottom, #d9d9d9, rgb(96, 211, 249)); 
+      background: linear-gradient(to bottom, #050404, rgb(96, 211, 249)); 
 }
 
-#main {background-color: #a9a8a8; /* Change to your desired background color */
+#main {background-color: #a9a8a8; 
       padding: 20px; /* Adds padding around the form */
-      min-height: 100vh;  
       margin: 0% 5%;
+      border-top-left-radius: 2%;
+      border-top-right-radius: 2%;
 }
 
-fieldset {background: #fff; /* White background for each form part */
-         border: 2px solid #ccc; /* Border around each part */
-         margin-bottom: 10px; /* Space between sections */
-         padding: 15px; /* Padding inside each section */
-         border-radius: 10px; /*rounded corners */
+fieldset {background: #fff; 
+         border: 2px solid #ccc; 
+         margin-bottom: 10px; 
+         padding: 15px; 
+         border-radius: 10px; 
          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
  }
 
@@ -38,30 +40,26 @@ legend {color: rgb(102, 233, 254);
        float:right;
       }
 
-nav {position: absolute; /* or fixed, depending on your needs */
+nav {position: absolute; 
     top: 0;
     right: 0;
     border-bottom: 2px solid #f9f8f8; /* Line underneath the nav bar */
-    padding-bottom: 10px; /* Optional: Adds spacing between the nav items and the line */
+    padding-bottom: 10px; 
+    padding-top: 5px;
   }
   
-  nav ul {display: flex; /* Makes the list items display horizontally */
-          margin: 0;
-          padding: 0;
-          list-style: none; /* Removes default list styling */
+
+  
+  
+  
+  nav a {color: rgb(250, 248, 248); /* for nav icons */
+        text-decoration: none; 
+        padding: 5px 10px;
+        border: 2px solid transparent;
+        transition: border-color 0.3s ease; 
   }
   
-  nav ul li {margin: 0 10px; /* Adjust spacing between items as needed */
-  }
-  
-  nav a {color: rgb(250, 248, 248); /* Silver text color */
-        text-decoration: none; /* Removes underline from links */
-        padding: 5px 10px; /* Adds some padding around the text */
-        border: 2px solid transparent; /* Initial border style */
-        transition: border-color 0.3s ease; /* Smooth transition for border color change */
-  }
-  
-  nav a:hover {border-color: silver; /* Border color on hover */
+  nav a:hover {border-color: silver; 
   }
 
   footer{display:flex; 
@@ -88,15 +86,16 @@ nav {position: absolute; /* or fixed, depending on your needs */
   float:center;
   display:flex;
   justify-content: center;
-  padding-left: 0.5em;
-  margin: 0em 10em 1em 10em;
+  padding: auto;
+  margin: 0em 13em 1em 13em;
 
 }
 
 #gender_field{ display:flex; 
               justify-content: center;}
 
-.gender_options{margin:0% 10% 0% 5%;float:center}
+.gender_options{margin:0% 10% 0% 5%;
+                float:center}
 
 
   
