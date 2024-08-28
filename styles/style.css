@@ -26,7 +26,8 @@ body {
 
 #main{background-color: #a9a8a8; /* Change to your desired background color */
   padding: 20px; /* Adds padding around the form */
-  min-height: 100vh; border-radius: 5%}
+  min-height: 100vh; border-radius: 5%; margin: 0% 5%;
+}
 
   fieldset{
     background: #fff; /* White background for each form part */
