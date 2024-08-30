@@ -16,7 +16,9 @@ body {font-family: "DM Serif Text", serif;
       font-weight: 400;
       font-style: normal;
       color: #050505; 
-      background: linear-gradient(to bottom, #050404, rgb(96, 211, 249)); 
+}
+
+#apply_body{background: linear-gradient(to bottom, #050404, rgb(96, 211, 249))
 }
 
 #main {background-color: #a9a8a8; 

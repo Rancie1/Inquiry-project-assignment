@@ -9,10 +9,10 @@
     <link href="styles/style.css" rel="stylesheet">
     <title>Apply</title>
 </head>
-<body>
+<body id="apply_body">
     <header>
         <nav>
-            <a href="index.hmtl">Home</a>
+            <a href="index.html">Home</a>
             <a href="apply.html">Apply</a>
             <a href="jobs.html">Jobs</a>
             <a href="about.html">About</a>
@@ -31,7 +31,7 @@
         </fieldset>
 
         <fieldset>
-            <p class="form_headers">Personal Details</p>
+            <span class="form_headers">Personal Details</span>
             <div>
                 <label for="fname">First Name:</label>
                 <input type="text" name="First Name" id="fname" maxlength="20" size="20" pattern="^[A-Za-z]+$" required="required">&emsp;
@@ -47,7 +47,7 @@
         </fieldset>
 
         <fieldset>
-            <p class="form_headers">Gender</p>
+            <span class="form_headers">Gender</span>
 
             <div id="gender_field">
 
@@ -70,7 +70,7 @@
         </fieldset>
 
         <fieldset>
-            <p class="form_headers">Address</p>
+            <span class="form_headers">Address</span>
             <div>
                 <label for="street">Street Address:</label>
                 <input type="text" name="Street Address" id="street" maxlength="40" size="40" required="required">
@@ -103,7 +103,7 @@
         </fieldset>
 
         <fieldset>
-            <p class="form_headers">Contact Information</p>
+            <span class="form_headers">Contact Information</span>
 
             <div>
                 <label for="email">Email Address:</label>
@@ -115,7 +115,7 @@
         </fieldset>
 
         <fieldset>
-            <p class="form_headers">Relevant Skills</p>
+            <span class="form_headers">Relevant Skills</span>
             
             <div>
                 <label for="html">HTML</label>
