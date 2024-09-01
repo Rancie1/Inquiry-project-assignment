@@ -40,25 +40,7 @@ legend {color: rgb(102, 233, 254);
       float:right;
       }
 
-/* Line underneath the nav bar */
-/* nav {position: absolute; 
-      top: 0;
-      right: 0;
-      border-bottom: 2px solid #f9f8f8;
-      padding-bottom: 10px; 
-      padding-top: 5px;
-} */
-/* for nav icons */
-/* nav a {color: rgb(250, 248, 248);
-      text-decoration: none; 
-      padding: 5px 10px;
-      border: 2px solid transparent;
-      transition: border-color 0.3s ease; 
-} */
 
-/* nav a:hover {
-      border-color: silver; 
-} */
 
 footer{display:flex; 
       justify-content:center; 
@@ -102,9 +84,7 @@ footer{display:flex;
 
 
   /* CSS for index page */
-*{
-      margin: 0;
-}
+
 
 header {position:relative;
       display:block;
