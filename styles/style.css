@@ -30,15 +30,10 @@ fieldset {background: #fff;
       border: 2px solid #ccc; 
       margin-bottom: 10px; 
       padding: 15px; 
-      border-radius: 10px; 
+      border-radius: 1em; 
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-legend {color: rgb(102, 233, 254);
-      background-color: rgb(0, 0, 0); 
-      border-radius: 5%; margin-left: 5px;
-      float:right;
-      }
 
 
 
