@@ -19,7 +19,7 @@ body {font-family: "DM Serif Text", serif;
 
 
 /* apply pages background colour change _Nathan Rancie*/
-#apply_body{background: linear-gradient(to bottom, #050404, rgb(96, 211, 249))}
+#apply_body{background: linear-gradient(to bottom, #050404, rgb(96, 211, 249)) !important}
 
 
 
@@ -100,63 +100,181 @@ footer img {width:33%;
   /* CSS for index page */
 
 
-header {position:relative;
-      display:block;
-      max-width:100%;
-      min-height: 50%;
-      height: 7vh;
-      margin: auto;
-      padding:1% 1%;
+header {position:relative !important;
+      display:block !important;
+      max-width:100% !important;
+      min-height: 50% !important;
+      height: 7vh !important;
+      margin: auto !important;
+      padding:1% 1% !important;
       /* background:#292828; */
-      background: black;
-      color:#d9d9d9;
+      background: black !important;
+      color:#d9d9d9 !important;
 }
 
 header h1 {
-      line-height: 45px;
-      font-style: normal;
-      font-size:2.5em;
-      margin: 0;
-      position: relative;
-      display:inline;
-      border-bottom: 2px solid #d9d9d9;
-      padding-right: 30%;
+      line-height: 45px !important;
+      font-style: normal !important;
+      font-size:2.5em !important;
+      margin: 0 !important;
+      position: relative !important;
+      display:inline !important;
+      border-bottom: 2px solid #d9d9d9 !important;
+      padding-right: 30% !important;
       
       /* badding-top: */
 }
 nav {
-      line-height: 45px;
-      padding-left: 0%;
-      padding-right: 0%;
-      padding-top: 0px;
-      margin-top: 0;
-      margin-bottom: 0;
-      list-style: none;
-      float:right;
-      display:inline;
-      color:white;
+      line-height: 45px !important;
+      padding-left: 0% !important;
+      padding-right: 0% !important;
+      padding-top: 0px !important;
+      margin-top: 0 !important;
+      margin-bottom: 0 !important;
+      list-style: none !important;
+      /* float:right; */
+      display:inline !important;
+      color:white !important;
 
 }
 
 nav a {
-      color:#d9d9d9;
-      text-decoration: none;
+      color:#d9d9d9 !important;
+      text-decoration: none !important;
       padding: 5px;
-      border-bottom: 2px solid #d9d9d9;
-      padding-right: 50px;
+      border-bottom: 2px solid #d9d9d9 !important;
+      padding-right: 3% !important;
+      /* padding-right: 50px; */
+      white-space: nowrap !important;
+      text-align: center !important;
 }
 
 nav a:hover {
-      font-style: underline;
-      color: white;
-      border-bottom: 2px solid white
+      font-style: underline !important;
+      color: white !important;
+      border-bottom: 2px solid white !important;
 }
+
+.section img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+}
+
+.hero-section{
+      position: relative;
+}
+
+.hero-section .hero-msg{
+      position: absolute;
+      font-size: 170%;
+      top: 42%;
+      left: 72%;
+      transform: translate(-50%, -50%);
+      color: #d9d9d9;
+      padding-bottom: 150px;
+}
+
+.hero-section .hero-sub-msg{
+      position: absolute;
+      text-align: center;
+      top: 52%;
+      left: 72%;
+      transform: translate(-50%, -50%);
+      color: #d9d9d9;
+      padding-bottom: 150px;
+}
+
+.hero-section .hero-btn{
+      position: absolute;
+      top: 50%;
+      left: 72%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transition-duration: 0.4s;
+      color: white;
+      border: 1px solid white;
+      font-size: 16px;
+      padding: 16px 30px;
+      cursor: pointer;
+      border-radius: 5px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      background-color: transparent;
+      background-repeat: no-repeat;
+}
+
+/* Not working as of yet */
+.button:hover {
+      background-color: white;
+      color: black;
+}
+
+.info{
+      background-color: #d9d9d9;
+      height: 100%;
+}
+.container {  display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 0.2fr 1.4fr 1.3fr;
+      gap: 0px 0px;
+      grid-auto-flow: row;
+      grid-template-areas:
+      "Our-Work Our-Work Our-Work Our-Work"
+      "Info Info Info Info"
+      "Value-1 Value-2 Value-3 Value-4";
+      }
+      
+      .Our-Work { grid-area: Our-Work; }
+      
+      .Info { grid-area: Info; }
+      
+      .Value-4 { grid-area: Value-4; }
+      
+      .Value-1 { grid-area: Value-1; }
+      
+      .Value-2 { grid-area: Value-2; }
+      
+      .Value-3 { grid-area: Value-3; }
+
+      .Our-Work{
+            margin-top: none;
+            background-color: #66e9fe;
+            font-style: bold;
+            padding: 1rem;
+            text-align: center;
+            color: black;
+      }
+      .Info{
+            background-color: #d9d9d9;
+            padding: 1rem;
+            text-align: justify;
+            color: black;
+      }
+      .Value-1{
+            background-color: red;
+            padding: 1rem;
+            text-align: center;
+            color: black;
+
+      }
+
+footer{
+      width: 100%;
+      background-color: black;
+      color: white;
+      text-align: center;
+      /* display: inline; */
+      padding: 1rem;
+}
+
 
 /*Css for about page */
 
 
 html, body {
-      padding: 20px;
+
       font-family: Arial, sans-serif;
       background-color: #f4f4f4;
       line-height: 2; /* more readable text by spacing */
@@ -221,8 +339,7 @@ html, body {
   figure img {
       max-width: 100%;
       height: auto;
-      border: 2px solid #333;  /* image border */
-      
+      border: 2px solid #333;  /*image border */
   }
   
   /* Mailto link styling */
@@ -233,58 +350,3 @@ html, body {
   }
   
   
-
-.hero-section{
-      position: relative;
-}
-
-.hero-section .hero-msg{
-      position: absolute;
-      font-size: 170%;
-      top: 42%;
-      left: 72%;
-      transform: translate(-50%, -50%);
-      color: #d9d9d9;
-      padding-bottom: 150px;
-}
-
-.hero-section .hero-sub-msg{
-      position: absolute;
-      text-align: center;
-      top: 52%;
-      left: 72%;
-      transform: translate(-50%, -50%);
-      color: #d9d9d9;
-      padding-bottom: 150px;
-}
-
-.hero-section .hero-btn{
-      position: absolute;
-      top: 50%;
-      left: 72%;
-      transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-      transition-duration: 0.4s;
-      color: white;
-      border: 1px solid white;
-      font-size: 16px;
-      padding: 16px 30px;
-      cursor: pointer;
-      border-radius: 5px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      background-color: transparent;
-      background-repeat: no-repeat;
-}
-
-/* Not working as of yet */
-.button:hover {
-      background-color: white;
-      color: black;
-}
-
-.info{
-      background-color: #d9d9d9;
-      height: 100%;
-}
