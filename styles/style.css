@@ -1,147 +1,141 @@
+/*
+filename: style.css, webweavers
+authors: Nathan Rancie, Riley Parry, Aniket Moharana, Sam Nguyen
+created: 20/08/2024
+last modified: 3/09/2024
+description: css file for our website
+*/
 
 *{margin:0%}
 
-header {display: flex;
-      gap: 20px;
-      background-color: black;
-      padding-bottom: 5px;
-      }
-
-#title {margin-top: 40px;
-      margin-left:5%;
-      margin-bottom: 2%;
-      color:white;
-}
-
+/* basic setting for main content -Nathan Rancie*/
 body {font-family: "DM Serif Text", serif;
       font-weight: 400;
       font-style: normal;
-      color: #050505; 
-}
+      color: #050505; }
 
-#apply_body{background: linear-gradient(to bottom, #050404, rgb(96, 211, 249))
-}
 
+
+
+
+/* apply pages background colour change _Nathan Rancie*/
+#apply_body{background: linear-gradient(to bottom, #050404, rgb(96, 211, 249))}
+
+
+
+
+
+
+/* apply pages main body of content -Nathan Rancie*/
 #main {background-color: #a9a8a8; 
-      padding: 20px; /* Adds padding around the form */
+      padding: 20px; 
       margin: 0% 5%;
       border-top-left-radius: 2%;
-      border-top-right-radius: 2%;
-}
+      border-top-right-radius: 2%;}
 
+
+
+/* apply pages fieldsets -Nathan Rancie*/
 fieldset {background: #fff; 
-      border: 2px solid #ccc; 
-      margin-bottom: 10px; 
-      padding: 15px; 
-      border-radius: 10px; 
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
+          border: 2px solid #ccc; 
+          margin-bottom: 10px; 
+          padding: 15px; 
+          border-radius: 1em; 
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);}
 
-legend {color: rgb(102, 233, 254);
-      background-color: rgb(0, 0, 0); 
-      border-radius: 5%; margin-left: 5px;
-      float:right;
-      }
 
-/* Line underneath the nav bar */
-/* nav {position: absolute; 
-      top: 0;
-      right: 0;
-      border-bottom: 2px solid #f9f8f8;
-      padding-bottom: 10px; 
-      padding-top: 5px;
-} */
-/* for nav icons */
-/* nav a {color: rgb(250, 248, 248);
-      text-decoration: none; 
-      padding: 5px 10px;
-      border: 2px solid transparent;
-      transition: border-color 0.3s ease; 
-} */
 
-/* nav a:hover {
-      border-color: silver; 
-} */
+
+
+/*layout for footer -Nathan Rancie*/
+footer nav { margin-top: 3%;}
 
 footer{display:flex; 
-      justify-content:center; 
-      padding:5%;
       background-color:black;
-      color:white
-}
+      color:white}
 
-#buttons {
-      display:flex;
-      justify-content: center;
+footer img {width:33%;
+            float: left;}
+
+
+
+
+/* apply and reset buttons on apply page -Nathan Rancie*/
+#buttons {display:flex;
+          justify-content: center;
 }
-#buttons input{
-      margin: 1%;
-}
+#buttons input{ margin: 1%;}
 
 #buttons input:hover{border-color: silver;
-      background-color:aqua;
+                     background-color:aqua;}
 
-}
 
+
+
+
+/* headings for each fieldset on apply page -Nathan Rancie*/
 .form_headers{color: rgb(102, 233, 254);
-  background-color: rgb(0, 0, 0); 
-  border-radius: 5%;
-  display:flex;
-  justify-content: center;
-  padding: 0em;
-  margin: 0em 13em 1em 13em;
+              background-color: rgb(0, 0, 0); 
+              border-radius: 5%;
+              display:flex;
+              justify-content: center;
+              padding: 0em;
+              margin: 0em 13em 1em 13em;}
 
-}
 
-#gender_field{ 
-      display:flex; 
-      justify-content: center;
-}
 
-.gender_options{
-      margin:0% 10% 0% 5%;
-      float:center;
-}
+
+
+/* adjusting layout of gender options on apply page -Nathan Rancie*/
+#gender_field{ display:flex; 
+               justify-content: center;}
+
+.gender_options{margin:0% 10% 0% 5%;}
+
+
+
+
 
 
   /* CSS for index page */
-*{
-      margin: 0;
-}
 
-header {
-      position:relative;
+
+header {position:relative;
       display:block;
       max-width:100%;
+      min-height: 50%;
       height: 7vh;
       margin: auto;
-      padding:1rem 5rem;
+      padding:1% 1%;
       /* background:#292828; */
       background: black;
       color:#d9d9d9;
 }
+
 header h1 {
       line-height: 45px;
       font-style: normal;
-      font-size:2.5rem;
+      font-size:2.5em;
       margin: 0;
       position: relative;
       display:inline;
       border-bottom: 2px solid #d9d9d9;
-      /*padding-right: 446px;*/
-      padding-right: 38%;
+      padding-right: 30%;
+      
       /* badding-top: */
 }
 nav {
       line-height: 45px;
-      padding-left: 0;
-      padding-right: 10px;
-      padding-top: 9px;
+      padding-left: 0%;
+      padding-right: 0%;
+      padding-top: 0px;
+      margin-top: 0;
       margin-bottom: 0;
       list-style: none;
       /* float:right; */
       display:inline;
       color:white;
+
 }
 
 nav a {
@@ -161,11 +155,87 @@ nav a:hover {
       border-bottom: 2px solid white
 }
 
-img{
-      width: 100%;
+/*Css for about page */
+
+
+html, body {
+      padding: 20px;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      line-height: 2; /* more readable text by spacing */
+  }
+  
+  /* Header styles */
+  header {
+      color: #fff;
+      padding: 10px 0;
+      text-align: center;
+  }
+  
+  /* Main container styles */
+  .container {
+      margin: auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Definition list styles */
+  dl {
+      display: flex; /* allow item in def list to be layout in a row */
+      flex-wrap: wrap;
+      justify-content: space-between; /*pushing dt to left and dd to right by add space between them */
+      margin-bottom: 20px;
+  }
+  
+  dt {
+      font-weight: bold;
+      width: 30%;  
+  }
+  
+  dd {
+      width: 65%;  
+      margin: 0 0 10px 0;
+  }
+  
+  /* Table styles */
+  table {
+      width: 80%;  /* center table by adding width */
+      margin: 20px auto;
+      border-collapse: collapse; /* making border appear in a single line */
+      text-align: left;
+  }
+  
+  th, td {
+      padding: 10px;
+      border: 1px solid #ddd;
+      background-color: #f4f4f4;  
+  }
+  
+  
+  /* image styles */
+  figure {
+      float: right;  /* Float figure to the right */
+      margin: 0 0 10px 20px;
+      text-align: center;
+  }
+  
+  figure img {
+      max-width: 100%;
       height: auto;
-      /* object-fit: contain; */
-}
+      border: 2px solid #333;  /* image border */
+      
+  }
+  
+  /* Mailto link styling */
+  p a {
+      color: #333;
+      text-decoration: none;
+      border-bottom: 2px solid #333;  /*bottom border for mail link*/
+  }
+  
+  
 
 .hero-section{
       position: relative;
