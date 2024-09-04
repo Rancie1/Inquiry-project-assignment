@@ -50,17 +50,16 @@ fieldset {background: #fff;
 /*layout for footer -Nathan Rancie*/
 footer nav { margin-top: 3%;}
 
-footer{display:flex; 
+footer {display:flex; 
       background-color:black;
       color:white}
-
 footer img {width:33%;
-            float: left;}
+            float: left;} s
 
 
 
 
-/* apply and reset buttons on apply page -Nathan Rancie*/
+/* apply and reset buttons on apply page -Nathan Rancie */
 #buttons {display:flex;
           justify-content: center;
 }
@@ -72,7 +71,7 @@ footer img {width:33%;
 
 
 
-/* adjusting layout of gender options on apply page -Nathan Rancie*/
+/* adjusting layout of gender options on apply page -Nathan Rancie */
 #gender_field{ display:flex; 
                justify-content: center;}
 
@@ -80,7 +79,7 @@ footer img {width:33%;
 
 
 
-/* legends for each fielset adjustments */
+/* legends for each fielset adjustments -Nathan Rancie */
 legend {background-color: white;
         border-radius: 5px;}
     
@@ -209,7 +208,7 @@ nav a:hover {
       background-color: #d9d9d9;
       height: 100%;
 }
-.container {  display: grid;
+.container_index {  display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr;
       grid-template-rows: 0.2fr 1.4fr 1.3fr;
       gap: 0px 0px;
@@ -284,7 +283,7 @@ footer{
   }
   
   /* Main container styles */
-  .container {
+  .container_about {
       margin: auto;
       background: #fff;
       padding: 20px;
