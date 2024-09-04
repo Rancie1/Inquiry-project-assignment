@@ -48,13 +48,42 @@ fieldset {background: #fff;
 
 
 /*layout for footer -Nathan Rancie*/
-footer nav { margin-top: 3%;}
+footer nav { 
+      margin-top: 3%;
+      text-align: center;
+      float: center;
+      align-items: center;
+}
 
-footer {display:flex; 
+footer {display: flex; 
       background-color:black;
-      color:white}
+      color:white;
+      border-top: 4px double #66e9fe;
+      clear: both;
+      display: flex;
+      justify-content: center;
+}
+
 footer img {width:33%;
-            float: left;} s
+            float: left;}
+
+footer p {
+    display: inline-block;
+    width: 33%;
+}
+
+footer p:first-child {
+    float: left;
+}
+
+footer p:nth-child(2) {
+    text-align: center;
+}
+
+footer p:last-child {
+    float: right;
+    text-align: right;
+}
 
 
 
@@ -66,7 +95,7 @@ footer img {width:33%;
 #buttons input{ margin: 1%;}
 
 #buttons input:hover{border-color: silver;
-                     background-color:aqua;}
+                     background-color:#66e9fe;}
 
 
 
