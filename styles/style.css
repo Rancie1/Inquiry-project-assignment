@@ -128,7 +128,8 @@ header h1 {
       position: relative;
       display:inline;
       border-bottom: 2px solid #d9d9d9;
-      padding-right: 446px;
+      /*padding-right: 446px;*/
+      padding-right: 38%;
       /* badding-top: */
 }
 nav {
@@ -138,7 +139,7 @@ nav {
       padding-top: 9px;
       margin-bottom: 0;
       list-style: none;
-      float:right;
+      /* float:right; */
       display:inline;
       color:white;
 }
@@ -148,7 +149,10 @@ nav a {
       text-decoration: none;
       padding: 5px;
       border-bottom: 2px solid #d9d9d9;
-      padding-right: 50px;
+      padding-right: 3%;
+      /* padding-right: 50px; */
+      white-space: nowrap;
+      text-align: center;
 }
 
 nav a:hover {
@@ -216,4 +220,57 @@ img{
 .info{
       background-color: #d9d9d9;
       height: 100%;
+}
+.container {  display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 0.2fr 1.4fr 1.3fr;
+      gap: 0px 0px;
+      grid-auto-flow: row;
+      grid-template-areas:
+      "Our-Work Our-Work Our-Work Our-Work"
+      "Info Info Info Info"
+      "Value-1 Value-2 Value-3 Value-4";
+      }
+      
+      .Our-Work { grid-area: Our-Work; }
+      
+      .Info { grid-area: Info; }
+      
+      .Value-4 { grid-area: Value-4; }
+      
+      .Value-1 { grid-area: Value-1; }
+      
+      .Value-2 { grid-area: Value-2; }
+      
+      .Value-3 { grid-area: Value-3; }
+
+      .Our-Work{
+            margin-top: none;
+            background-color: #66e9fe;
+            font-style: bold;
+            padding: 1rem;
+            text-align: center;
+            color: black;
+      }
+      .Info{
+            background-color: #d9d9d9;
+            padding: 1rem;
+            text-align: justify;
+            color: black;
+      }
+      .Value-1{
+            background-color: red;
+            padding: 1rem;
+            text-align: center;
+            color: black;
+
+      }
+
+footer{
+      width: 100%;
+      background-color: black;
+      color: white;
+      text-align: center;
+      /* display: inline; */
+      padding: 1rem;
 }
