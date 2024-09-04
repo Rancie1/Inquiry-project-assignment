@@ -30,8 +30,8 @@ body {font-family: "DM Serif Text", serif;
 #main {background-color: #a9a8a8; 
       padding: 20px; 
       margin: 0% 5%;
-      border-top-left-radius: 2%;
-      border-top-right-radius: 2%;}
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;}
 
 
 
@@ -41,7 +41,7 @@ fieldset {background: #fff;
           margin-bottom: 10px; 
           padding: 15px; 
           border-radius: 1em; 
-          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);}
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)}
 
 
 
