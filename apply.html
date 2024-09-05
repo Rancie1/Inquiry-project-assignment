@@ -75,13 +75,12 @@ description: apply page for our website-->
                     </div>
                     <br />
                     <div>
-                        <label for="date">Date:</label>
+                        <label for="date">Date of Birth:</label>
                         <input
-                            type="text"
+                            type="date"
                             name="date"
                             id="date"
                             placeholder="dd-mm-yyyy"
-                            pattern="\d{1,2}\/\d{1,2}\/\d{4}"
                             title="Please enter a valid date"
                             maxlength="10"
                             size="10"
@@ -222,7 +221,6 @@ description: apply page for our website-->
                             id="html"
                             name="Skills[]"
                             value="HTML"
-                            checked="checked"
                         />
                         &emsp;
 
@@ -273,9 +271,9 @@ description: apply page for our website-->
                     <br />
                     <div>
                         <label for="skill">Description of Skill:</label> <br />
-                        <textarea id="skill" name="skill" rows="4" cols="40">
-Write description of your relevant skill here...</textarea
-                        >
+                        <textarea id="skill" name="skill" rows="4" cols="40" 
+                            placeholder="Please enter a decription of your skill here">
+                        </textarea>
                     </div>
                 </fieldset>
                 <div id="buttons">
