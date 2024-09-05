@@ -1,4 +1,9 @@
 <!DOCTYPE html>
+<!--filename: apply.html, webweavers
+authors: Nathan Rancie
+created: 20/08/2024
+last modified: 3/09/2024
+description: apply page for our website-->
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
@@ -11,6 +16,7 @@
     </head>
     <body id="apply_body">
         <header>
+            <h1>Enable Solutions</h1>
             <nav>
                 <a href="index.html">Home</a>
                 <a href="about.html">About</a>
@@ -18,9 +24,8 @@
                 <a href="apply.html">Apply</a>
                 <a href="enhancements.html">Enhancements</a>
             </nav>
-            <h1 id="title">Enable Solutions</h1>
         </header>
-        <div id="main">
+        <section id="main">
             <form
                 method="post"
                 action="http://mercury.swin.edu.au/it000000/formtest.php"
@@ -42,7 +47,7 @@
                 </fieldset>
 
                 <fieldset>
-                    <span class="form_headers">Personal Details</span>
+                    <legend>Personal Details</legend>
                     <div>
                         <label for="fname">First Name:</label>
                         <input
@@ -86,7 +91,8 @@
                 </fieldset>
 
                 <fieldset>
-                    <span class="form_headers">Gender</span>
+                  
+                    <legend>Gender</legend>
 
                     <div id="gender_field">
                         <div class="gender_options">
@@ -123,7 +129,8 @@
                 </fieldset>
 
                 <fieldset>
-                    <span class="form_headers">Address</span>
+                    
+                    <legend>Address</legend>
                     <div>
                         <label for="street">Street Address:</label>
                         <input
@@ -181,7 +188,8 @@
                 </fieldset>
 
                 <fieldset>
-                    <span class="form_headers">Contact Information</span>
+                    
+                    <legend>Contact Information</legend>
 
                     <div>
                         <label for="email">Email Address:</label>
@@ -208,7 +216,8 @@
                 </fieldset>
 
                 <fieldset>
-                    <span class="form_headers">Relevant Skills</span>
+                    
+                    <legend>Relevant Skills</legend>
 
                     <div>
                         <label for="html">HTML</label>
@@ -278,7 +287,7 @@ Write description of your relevant skill here...</textarea
                     <input type="reset" value="Reset Form" />
                 </div>
             </form>
-        </div>
+        </section>
 
         <footer>
             <img src="styles/images/banner.jpeg" alt="Hero" />
