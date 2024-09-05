@@ -154,66 +154,73 @@ nav a:hover {
 
 /*Css for about page */
 
-
 html, body {
-      padding: 20px;
-      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0; 
       background-color: #f4f4f4;
-      line-height: 2; /* more readable text by spacing */
+      line-height: 1.6;
   }
   
-  /* Header styles */
+  
   header {
+      background: #050505; 
       color: #fff;
       padding: 10px 0;
+      width: 100%;  
       text-align: center;
+      position: relative;
+      box-sizing: border-box;  
   }
   
-  /* Main container styles */
+
   .container {
-      margin: auto;
+      max-width: 800px;
+      margin: 20px auto;  
       background: #fff;
       padding: 20px;
       border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
   }
   
-  /* Definition list styles */
+  
   dl {
-      display: flex; /* allow item in def list to be layout in a row */
+      display: flex;
       flex-wrap: wrap;
-      justify-content: space-between; /*pushing dt to left and dd to right by add space between them */
+      justify-content: space-between;
       margin-bottom: 20px;
   }
   
   dt {
       font-weight: bold;
-      width: 30%;  
+      width: 30%;
   }
   
   dd {
-      width: 65%;  
+      width: 65%;
       margin: 0 0 10px 0;
   }
   
-  /* Table styles */
+  
   table {
-      width: 80%;  /* center table by adding width */
+      width: 80%;
       margin: 20px auto;
-      border-collapse: collapse; /* making border appear in a single line */
+      border-collapse: collapse;
       text-align: left;
   }
   
   th, td {
       padding: 10px;
       border: 1px solid #ddd;
-      background-color: #f4f4f4;  
+      background-color: #f4f4f4;
+  }
+  
+  th {
+      font-weight: bold;
   }
   
   
-  /* image styles */
   figure {
-      float: right;  /* Float figure to the right */
+      float: right;
       margin: 0 0 10px 20px;
       text-align: center;
   }
@@ -221,15 +228,16 @@ html, body {
   figure img {
       max-width: 100%;
       height: auto;
-      border: 2px solid #333;  /* image border */
+      border: 2px solid #333;
       
   }
   
-  /* Mailto link styling */
+  
+  
   p a {
       color: #333;
       text-decoration: none;
-      border-bottom: 2px solid #333;  /*bottom border for mail link*/
+      border-bottom: 2px solid #333;
   }
   
   
