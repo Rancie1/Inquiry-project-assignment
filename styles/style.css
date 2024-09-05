@@ -8,13 +8,17 @@ description: css file for our website
 
 *{margin:0%}
 
+
+
+
+/* CSS for apply page -Nathan Rancie */
+
+
 /* basic setting for main content -Nathan Rancie*/
 body {font-family: "DM Serif Text", serif;
       font-weight: 400;
       font-style: normal;
       color: #050505; }
-
-
 
 
 
@@ -24,10 +28,8 @@ body {font-family: "DM Serif Text", serif;
 
 
 
-
-
-
-/* apply pages main body of content -Nathan Rancie */
+/* apply pages main body of content, curves the 
+   top corners, nice colour and fitting to page -Nathan Rancie */
 #main {background-color: #f4f4f4; 
       padding: 20px; 
       margin: 0% 5%;
@@ -36,28 +38,18 @@ body {font-family: "DM Serif Text", serif;
 
 
 
-/* apply pages fieldsets -Nathan Rancie */
+/* apply pages fieldsets, adds spacing in between, shadow and curving 
+-Nathan Rancie */
 fieldset {background: #fff; 
           border: 2px solid #ccc; 
           margin-bottom: 10px; 
           padding: 15px; 
           border-radius: 1em; 
-          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)}
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)} 
 
-#footer { 
-      background-color:black;
-      color:white;
-}
 
-footer{
-      border-top: 4px double #66e9fe;
-      display: flex;
-      justify-content: center;
-      max-width: 97.8%
-      
-}
-
-/* apply and reset buttons on apply page -Nathan Rancie */
+/* apply and reset buttons on apply page, spacing and 
+change of color when hovering -Nathan Rancie */
 #buttons {display:flex;
           justify-content: center;
 }
@@ -71,9 +63,10 @@ footer{
 
 /* adjusting layout of gender options on apply page -Nathan Rancie */
 #gender_field{ display:flex; 
-               justify-content: center;}
+      justify-content: center;}
 
 .gender_options{margin:0% 10% 0% 5%;}
+
 
 
 
@@ -82,9 +75,6 @@ legend {background-color: white;
         border-radius: 5px;}
     
      
-
-
-
 
 
 
@@ -301,15 +291,19 @@ nav a:hover {
 }
 
 footer{
+      border-top: 4px double #66e9fe;
       display: flex;
       justify-content: space-between;
-      width: 100%;
+      width: 97.8%;
       background-color: black;
       color: white;
       text-align: center;
       /* display: inline; */
       padding: 1rem;
 }
+
+/* spacing for each div in footer along with 
+colour change when hovering over contact email -Nathan Rance */
 
 #Contact {margin-top: 5%;}
 
