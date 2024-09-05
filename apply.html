@@ -75,13 +75,12 @@ description: apply page for our website-->
                     </div>
                     <br />
                     <div>
-                        <label for="date">Date:</label>
+                        <label for="date">Date of Birth:</label>
                         <input
-                            type="text"
+                            type="date"
                             name="date"
                             id="date"
                             placeholder="dd-mm-yyyy"
-                            pattern="\d{1,2}\/\d{1,2}\/\d{4}"
                             title="Please enter a valid date"
                             maxlength="10"
                             size="10"
@@ -91,7 +90,6 @@ description: apply page for our website-->
                 </fieldset>
 
                 <fieldset>
-                  
                     <legend>Gender</legend>
 
                     <div id="gender_field">
@@ -129,7 +127,6 @@ description: apply page for our website-->
                 </fieldset>
 
                 <fieldset>
-                    
                     <legend>Address</legend>
                     <div>
                         <label for="street">Street Address:</label>
@@ -188,7 +185,6 @@ description: apply page for our website-->
                 </fieldset>
 
                 <fieldset>
-                    
                     <legend>Contact Information</legend>
 
                     <div>
@@ -216,7 +212,6 @@ description: apply page for our website-->
                 </fieldset>
 
                 <fieldset>
-                    
                     <legend>Relevant Skills</legend>
 
                     <div>
@@ -226,7 +221,6 @@ description: apply page for our website-->
                             id="html"
                             name="Skills[]"
                             value="HTML"
-                            checked="checked"
                         />
                         &emsp;
 
@@ -277,9 +271,9 @@ description: apply page for our website-->
                     <br />
                     <div>
                         <label for="skill">Description of Skill:</label> <br />
-                        <textarea id="skill" name="skill" rows="4" cols="40">
-Write description of your relevant skill here...</textarea
-                        >
+                        <textarea id="skill" name="skill" rows="4" cols="40" 
+                            placeholder="Please enter a decription of your skill here">
+                        </textarea>
                     </div>
                 </fieldset>
                 <div id="buttons">
@@ -288,16 +282,24 @@ Write description of your relevant skill here...</textarea
                 </div>
             </form>
         </section>
-
         <footer>
-            <img src="styles/images/banner.jpeg" alt="Hero" />
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="jobs.html">Jobs</a>
-                <a href="apply.html">Apply</a>
-                <a href="enhancements.html">Enhancements</a>
-            </nav>
+            <div id="Contact">
+                <p>Contact us at:</p>
+                <a href="enablesolutions@official.com.au">enablesolutions@official.com.au</p>
+            </div>
+            <div id="ftr-nav">
+                <nav id="ftr-nav">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="jobs.html">Jobs</a>
+                    <a href="apply.html">Apply</a>
+                    <a href="enhancements.html">Enhancements</a>
+                <nav>
+            </div>
+            <div id="Author">
+                <p>Author: &#169; Enable Solutions</p>
+                <p>Last Editted: September 2024</p>
+            </div>
         </footer>
     </body>
 </html>
